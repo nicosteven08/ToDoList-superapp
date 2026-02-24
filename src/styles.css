@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-red-600);
+  --color-secondary: var(--color-slate-600);
+}
+
+@layer base {
+  ::selection {
+    @apply bg-red-100 text-red-900;
+  }
+
+  body {
+    @apply text-slate-800 antialiased bg-slate-50;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+  }
+}
