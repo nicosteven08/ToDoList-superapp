@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
       <div class="flex items-center gap-3">
         <img src="America.png" alt="Logo" class="h-10 w-auto object-contain">
         <span class="text-xl font-extrabold tracking-tight text-slate-800">
-          Super <span class="text-red-600">Kanban</span>
+          America de <span class="text-red-600">Cali</span>
         </span>
       </div>
 

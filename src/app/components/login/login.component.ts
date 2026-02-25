@@ -16,7 +16,7 @@ import { Router } from '@angular/router';
         
         <div class="text-center mb-10">
           <img src="America.png" alt="Logo" class="h-20 w-auto mx-auto mb-6 object-contain">
-          <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">Super <span class="text-red-600">Kanban</span></h1>
+          <h1 class="text-2xl font-extrabold text-slate-900 tracking-tight leading-tight">America de Cali: <span class="text-red-600">El mejor equipo de Colombia</span></h1>
           <p class="text-slate-400 mt-2 font-medium">Ingresa a tu cuenta para continuar</p>
         </div>
 
